@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Source+Sans+Pro:300,400|Kaushan+Script|Lora|Playfair+Display:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <title>Mailer | Send Email To others</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <section id="contact" class="border border-1 bg-white pb-sm-5">
+      <div class="container">
+        <div class="col mt-lg-5">
+          <div class="header">
+            <h2>Send Emails</h2>
+            <p>There is no limits</p>
+          </div>
+
+          <div class="contact-form mt-5">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control mb-4 rounded-0"
+            />
+
+            <label for="email">Your Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="form-control mb-4 rounded-0"
+            />
+
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              class="form-control mb-4 rounded-0"
+            />
+
+            <label for="message">Your Message</label>
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              class="form-control rounded-0"
+            ></textarea>
+
+            <button
+              class="text-white px-4 py-2 mt-4 border-0 text-capitalize rounded-1"
+              id="sendEmail"
+            >
+              send message
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- :-----------------::-----------------: -->
+    <!-- :-----------------:End:-----------------: -->
+    <script src="./axios.min.js"></script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
